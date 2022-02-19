@@ -1,7 +1,8 @@
 {
-  "name": "@mdi/font",
-  "version": "6.5.95",
+  "name": "mdi",
+  "version": "1.5.54",
   "description": "Dist for Material Design Webfont. This includes the Stock and Community icons in a single webfont collection.",
+  "main": "preview.html",
   "style": "css/materialdesignicons.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,9 +21,18 @@
     "name": "Austin Andrews",
     "web": "http://twitter.com/templarian"
   },
-  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "OFL-1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/Templarian/MaterialDesign/issues"
   },
-  "homepage": "https://materialdesignicons.com"
+  "homepage": "http://materialdesignicons.com"
 }
